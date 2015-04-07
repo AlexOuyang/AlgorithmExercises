@@ -1,0 +1,29 @@
+1.Fiteness : An algorithm must terminate after a finite number of steps and further
+each steps must be executable in finite amount of time. 
+
+2. Each step of an algorithm must be precisely defined; the action to be carried
+out must be rigorously and unambiguously specified for each case. 
+
+3. Input: An algorithm has zero or more, but only finite number of inputs. 
+zero input example: ASCII chart of 0-255 
+
+4. Output: An algorithm has one or more output. 
+
+5. Effectiveness: Should be effective that means each of the operation to be
+performed in an algorithm must be sufficiently basic that it can, in principle,
+be done exactly and in a finite length of time, by a person using pencil and
+paper and should be computer programming language independent
+
+Version 2
+
+Precision – the steps are precisely stated(defined).
+
+Uniqueness – results of each step are uniquely defined and only depend on the input and the result of the preceding steps.
+
+Finiteness – the algorithm stops after a finite number of instructions are executed.
+ 
+Input – the algorithm receives input.
+
+Output – the algorithm produces output.
+
+Generality – the algorithm applies to a set of inputs.

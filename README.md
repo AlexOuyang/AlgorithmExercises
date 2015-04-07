@@ -1,2 +1,2 @@
 # CSE-20
-Class projects on Java Data Structure
+Code Snippets on Algorithm and Discrete Mathematics

@@ -1,4 +1,5 @@
 import numpy as np
+from math import sqrt
 
 
 # Fibonacci version 1 in exponential time. 
@@ -21,7 +22,12 @@ def fib2(n):
     return f[n]
 
 
+# Fibonacci version 3 in constant time.
+# Of course, the fastest is using Binet's Fibonacci Number Formula: http://mathworld.wolfram.com/BinetsFibonacciNumberFormula.html
+def fib3(n):
+    return ((1+sqrt(5))**n-(1-sqrt(5))**n)/(2**n*sqrt(5))
 
 # Tests
 print "fib1(10) = " + str(fib1(10))
 print "fib2(10) = " + str(fib2(10))
+print "fib3(10) = " + str(fib3(10))

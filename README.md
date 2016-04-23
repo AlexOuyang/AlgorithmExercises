@@ -1,2 +1,3 @@
-# CSE-20
-Code Snippets on Algorithm and Discrete Mathematics
+# Algorithm Exercises
+
+Those are some algorithm exercises written in Python and Java

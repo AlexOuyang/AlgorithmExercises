@@ -13,7 +13,7 @@ def fib1(n):
 # Fibonacci version 2 in linear time (Polynomial)
 # Why is fib1(n) so slow? because many computations are repeated during the recursion. A more sensible scheme would store the intermediate results, the value of F0.....Fn-1 to an array as soon as they are know so that they don't have to be recomputed during each recursion call.
 def fib2(n):
-    if n==0: return 0
+    if n == 0: return 0
     f = np.zeros(n+1, dtype=np.int) # Creates an array holds F0 to Fn
     f[0] = 0
     f[1] = 1
